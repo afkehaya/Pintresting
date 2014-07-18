@@ -35,7 +35,7 @@ class PinsController < ApplicationController
 
   def destroy
     @pin.destroy
-    redirect_to pins_url
+    redirect_to pins_url, notice: 'Pin was successfully destroyed.'
   end
 
   private
@@ -50,7 +50,7 @@ class PinsController < ApplicationController
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
-    def pin_params
-      params.require(:pin).permit(:description)
+     def pin_params
+      params.require(:pin).permit(:description, :image)
     end
 end
