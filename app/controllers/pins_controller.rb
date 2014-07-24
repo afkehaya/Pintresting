@@ -14,9 +14,11 @@ class PinsController < ApplicationController
   end
 
   def edit
+
   end
 
   def create
+    byebug
     @pin = current_user.pins.build(pin_params)
     if @pin.save
       redirect_to @pin, notice: 'Pin was successfully created.'
@@ -51,6 +53,6 @@ class PinsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
      def pin_params
-      params.require(:pin).permit(:description, :image)
+      params.require(:pin).permit(:description, :image, :content)
     end
 end
