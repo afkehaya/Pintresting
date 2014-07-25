@@ -14,11 +14,10 @@ class PinsController < ApplicationController
   end
 
   def edit
-
+    
   end
 
   def create
-    byebug
     @pin = current_user.pins.build(pin_params)
     if @pin.save
       redirect_to @pin, notice: 'Pin was successfully created.'
