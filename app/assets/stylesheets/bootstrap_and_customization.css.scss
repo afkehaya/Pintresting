@@ -1,14 +1,14 @@
-$body-bg:                   #ecf0f1; 
-$navbar-height:             45px;
-$navbar-inverse-bg:         #95a5a6;
-$navbar-inverse-link-color: white;
-$brand-primary:             #f39c12;
-$jumbotron-bg:              #bdc3c7;
-$jumbotron-color:           #ecf0f1;
+$body-bg:                   white; 
+$navbar-height:             50px;
+$navbar-inverse-bg:         #bdc3c7;
+$navbar-inverse-link-color: #e74c3c;
+$brand-primary:             #c0392b;
+$jumbotron-bg:              #ecf0f1;
+$jumbotron-color:           #e74c3c;
 
 
-$brand-info: white;
-$headings-color: white;
+$brand-info: #e74c3c;
+$headings-color: #e74c3c;
 
 @import 'bootstrap';
 

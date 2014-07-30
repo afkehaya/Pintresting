@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
   mount Ckeditor::Engine => '/ckeditor'
-  resources :pins
-
+  resources :pins 
   devise_for :users
+
   root "pins#index"
   get "about" => "pages#about" # creates about_path
   # The priority is based upon order of creation: first created -> highest priority.
