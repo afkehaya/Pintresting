@@ -10,7 +10,7 @@ CKEDITOR.editorConfig = function( config )
   // config.language = 'fr';
   // config.uiColor = '#AADC6E';
   // Remove from toolbar
-  config.removePlugins = 'elementspath,image,flash,forms,div,templates,source,save,preview,print,newpage,about,iframe';
+  config.removePlugins = 'elementspath,image,flash,forms,div,save,print,about,iframe,source,-,newpage,preview,-,templates';
 
   /* Filebrowser routes */
   // The location of an external file browser, that should be launched when "Browse Server" button is pressed.
