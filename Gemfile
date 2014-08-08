@@ -16,6 +16,7 @@ gem 'masonry-rails', '~> 0.2.0'
 gem 'will_paginate', '~> 3.0.5'
 gem 'will_paginate-bootstrap'
 gem 'ckeditor', '~> 4.1.0'
+gem 'activeadmin', github: 'gregbell/active_admin'
 gem 'annotate'
 gem 'byebug'
 
